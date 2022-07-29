@@ -23,3 +23,8 @@ The app has two routes: <br/>
 ## Run
 
 `python app.py`
+
+
+## Testing
+
+`podman run -d --name flask-oidc -e OIDC_REDIRECT_URI='example.com/redirect_uri' -e ISSUER='https://idp.com/oidc/endpoint/default' -e CLIENT_ID='client_id' -e CLIENT_SECRET='client_secret' -p 5000:5000 docker.io/manavg/flask-oidc:v1` 
