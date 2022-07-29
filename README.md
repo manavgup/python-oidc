@@ -2,7 +2,7 @@
 OIDC authentication example with python
 
 
-## Environment varibles
+## Environment variables
 `OIDC_REDIRECT_URI = 'https://example.com/redirect_uri'` # must be registeed with the Identity Provider (IdP) <br/>
 `ISSUER = 'https://provider.com/oidc/endpoint/default'` # Issuer URI to call<br/>
 `CLIENT_ID = 'client_ID'` # registered client ID <br/>
